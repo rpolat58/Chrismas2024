@@ -65,12 +65,12 @@ AC.VR.options = {
 	fps: 25,                    // (number)   frames per second (used for the intro, auto spinning, and throwing)
 
 	grabbable: true,            // (boolean)  can the user grab the VR to manually spin it?
-	grabRotateDistance: 1000,   // (number)   pixels the cursor must travel to view a full axis
+	grabRotateDistance: 250,   // (number)   pixels the cursor must travel to view a full axis
 	grabRotateDistanceY: 500,   // (number)   pixels the cursor must travel to view a full axis
 
 	throwable: true,            // (boolean)  does the VR have inertia when releasing a grab?
-	minThrowDuration: 0.5,      // (number)   minimum throw duration in seconds
-	maxThrowDuration: 1.5,      // (number)   maximum throw duration in seconds
+	minThrowDuration: 1,      // (number)   minimum throw duration in seconds
+	maxThrowDuration: 5,      // (number)   maximum throw duration in seconds
 
 	spinnable: true,            // (boolean)  add spinners to on axes marked as infinite?
 	minSpinDuration: 3,         // (number)   minimum time in seconds the VR will take to rotate 360 degrees
